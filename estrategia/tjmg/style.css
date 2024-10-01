@@ -6,7 +6,7 @@
 
 #main{
     border: 1px solid #6011b9;
-    width: 52%;
+    width: 1000px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,14 +50,8 @@
     vertical-align: middle;
 }
 
-.iconeDart, .iconeHands, .iconeArrow{
+.iconeHands, .iconeArrow{
     width: 30px;
-    padding: 0 2px 7px 0;
-    vertical-align: middle;
-}
-
-.iconeStar{
-    width: 20px;
     padding: 0 2px 7px 0;
     vertical-align: middle;
 }
@@ -95,9 +89,15 @@
     padding: 0 0 40px 0;
 }
 
-.listagem{
+/* .listagem{
     padding: 0 0 40px 40px;
     font-style: italic;
+} */
+
+.listagemNOrdenada{
+    list-style: square inside;
+    font-style: italic;
+    padding: 0 0 40px 40px;
 }
 
 .corpoTexto span{
@@ -162,4 +162,11 @@
     color: #fff;
     text-align: center;
     line-height: 20px;
+}
+
+.linha{
+    width: 500px;
+    height: 1px;
+    border-color: #7600ec;
+    margin: 0 auto;
 }
